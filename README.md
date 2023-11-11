@@ -19,4 +19,4 @@ The app has several basic pages accessed from the top navigation menu, some of w
 
 # Status
 
-![](https://img.shields.io/github/last-commit/benc-uk/ejs-express-api-hub) ![](https://img.shields.io/github/release-date/benc-uk/ejs-express-api-hub) ![](https://img.shields.io/github/v/release/benc-uk/ejs-express-api-hub) ![](https://img.shields.io/github/commit-activity/y/benc-uk/ejs-express-api-hub)
+![](https://img.shields.io/github/last-commit/aomarabdelaziz/ejs-express-api-hub) ![](https://img.shields.io/github/release-date/aomarabdelaziz/ejs-express-api-hub) ![](https://img.shields.io/github/v/release/aomarabdelaziz/ejs-express-api-hub) ![](https://img.shields.io/github/commit-activity/y/aomarabdelaziz/ejs-express-api-hub)
