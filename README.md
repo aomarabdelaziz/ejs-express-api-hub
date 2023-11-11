@@ -16,8 +16,7 @@ The app has several basic pages accessed from the top navigation menu, some of w
 
 ![screen](https://user-images.githubusercontent.com/14982936/55620043-dfe96480-5791-11e9-9746-3b42a3a41e5f.png)
 ![screen](https://user-images.githubusercontent.com/14982936/55620045-dfe96480-5791-11e9-94f3-6d788ed447c1.png)
-![screen](https://user-images.githubusercontent.com/14982936/58764072-d8102b80-855a-11e9-993f-21ef0344d5e0.png)
 
 # Status
 
-![](https://img.shields.io/github/last-commit/benc-uk/nodejs-demoapp) ![](https://img.shields.io/github/release-date/benc-uk/nodejs-demoapp) ![](https://img.shields.io/github/v/release/benc-uk/nodejs-demoapp) ![](https://img.shields.io/github/commit-activity/y/benc-uk/nodejs-demoapp)
+![](https://img.shields.io/github/last-commit/benc-uk/ejs-express-api-hub) ![](https://img.shields.io/github/release-date/benc-uk/ejs-express-api-hub) ![](https://img.shields.io/github/v/release/benc-uk/ejs-express-api-hub) ![](https://img.shields.io/github/commit-activity/y/benc-uk/ejs-express-api-hub)
