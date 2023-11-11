@@ -1,5 +1,9 @@
 # Node.js - Express API Hub Web Application
 
+# Status
+
+![](https://img.shields.io/github/last-commit/aomarabdelaziz/ejs-express-api-hub) ![](https://img.shields.io/github/release-date/aomarabdelaziz/ejs-express-api-hub) ![](https://img.shields.io/github/v/release/aomarabdelaziz/ejs-express-api-hub) ![](https://img.shields.io/github/commit-activity/y/aomarabdelaziz/ejs-express-api-hub)
+
 This is a simple Node.js web app using the Express framework and EJS templates.
 
 The app has been designed with cloud native demos & containers in mind, in order to provide a real working application for deployment, something more than "hello-world" but with the minimum of pre-reqs. It is not intended as a complete example of a fully functioning architecture or complex software design.
@@ -16,7 +20,3 @@ The app has several basic pages accessed from the top navigation menu, some of w
 
 ![screen](https://user-images.githubusercontent.com/14982936/55620043-dfe96480-5791-11e9-9746-3b42a3a41e5f.png)
 ![screen](https://user-images.githubusercontent.com/14982936/55620045-dfe96480-5791-11e9-94f3-6d788ed447c1.png)
-
-# Status
-
-![](https://img.shields.io/github/last-commit/aomarabdelaziz/ejs-express-api-hub) ![](https://img.shields.io/github/release-date/aomarabdelaziz/ejs-express-api-hub) ![](https://img.shields.io/github/v/release/aomarabdelaziz/ejs-express-api-hub) ![](https://img.shields.io/github/commit-activity/y/aomarabdelaziz/ejs-express-api-hub)
