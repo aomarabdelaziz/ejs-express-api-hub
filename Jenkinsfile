@@ -1,3 +1,4 @@
+def buildNumber = ${BUILD_NUMBER}
 pipeline {
     agent {
         kubernetes {
@@ -36,7 +37,7 @@ pipeline {
             steps {
                 container('docker') {
                     script {
-                        app = docker.build("ejs-api-hub"+":1")
+                        app = docker.build("abdelazizomar/ejs-api-hub"+":"+buildNumber)
                         // docker.withRegistry('jfrog-cred'){
                         //     app.push()
                         // }    
