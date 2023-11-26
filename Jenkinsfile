@@ -38,9 +38,9 @@ pipeline {
                 container('docker') {
                     script {
                         app = docker.build("abdelazizomar/ejs-api-hub"+":"+buildNumber)
-                        // docker.withRegistry('jfrog-cred'){
-                        //     app.push()
-                        // }    
+                        docker.withRegistry('https://registry.hub.docker.com' , 'docker-cred'){
+                            app.push()
+                        }    
                     }
                 }
             }
