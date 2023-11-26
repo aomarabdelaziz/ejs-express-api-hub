@@ -44,6 +44,14 @@ pipeline {
                     }
                 }
             }
-        }       
+        } 
+        stage('Deployment') 
+        {
+            steps {
+                withCredentials([sshUserPrivateKey(credentialsId: 'bootstrap-server', keyFileVariable: 'keyfile', usernameVariable: 'USER')]) {
+                    sh "ssh -o StrictHostKeyChecking=no -i $keyfile $USER@3.88.221.112 kubectl set image deployment/express-app-deployment web-express-container=abdelazizomar/ejs-api-hub:${BUILD_NUMBER}"
+                }
+            }
+        }      
     }
 }
