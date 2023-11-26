@@ -32,11 +32,14 @@ pipeline {
         }
     }
     stages {      
-        stage('Build-Jar-file-Docker') {
+        stage('Building and Pushing Image') {
             steps {
                 container('docker') {
                     script {
-                        app = docker.build("ejs-api-hub"+":"+${BUILD_NUMBER})
+                        app = docker.build("ejs-api-hub"+":1")
+                        // docker.withRegistry('jfrog-cred'){
+                        //     app.push()
+                        // }    
                     }
                 }
             }
