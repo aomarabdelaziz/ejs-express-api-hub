@@ -9,11 +9,6 @@ pipeline {
                   - name: docker-socket
                     emptyDir: {}
                   containers:
-                  - name: maven
-                    image: maven:alpine
-                    command:
-                    - cat
-                    tty: true
                   - name: docker
                     image: docker:19.03.1
                     readinessProbe:
@@ -36,22 +31,7 @@ pipeline {
             '''
         }
     }
-    stages {
-        stage('Clone') {
-            steps {
-                container('maven') {
-                    
-                     git branch: 'main', changelog: false, poll: false, url: 'https://mohdsabir-cloudside@bitbucket.org/mohdsabir-cloudside/java-app.git'                    }
-                
-            }
-        }
-        stage('Build-Jar-file-Maven') {
-            steps {
-                container('maven') {
-                    sh 'mvn package'
-                }
-            }
-        }        
+    stages {      
         stage('Build-Jar-file-Docker') {
             steps {
                 container('docker') {
