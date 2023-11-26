@@ -36,7 +36,7 @@ pipeline {
             steps {
                 container('docker') {
                     script {
-                        app = docker.build("heysss")
+                        app = docker.build("ejs-api-hub"+":"+${BUILD_NUMBER})
                     }
                 }
             }
